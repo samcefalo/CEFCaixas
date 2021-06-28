@@ -1,0 +1,9 @@
+name: CEFCaixas
+version: ${project.version}
+author: wolfeplayer
+main: me.wolfe.cefcaixas.CEFCaixas
+api-version: 1.16
+softdepend: [ CEFEnchants ]
+commands:
+  cefcaixa:
+    aliases: [ caixa, caixas ]

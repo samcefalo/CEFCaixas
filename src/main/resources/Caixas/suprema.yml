@@ -1,0 +1,138 @@
+ativado: true
+gui: true
+nome: "&eCaixa Misteriosa"
+slot: 16
+material: 'end_portal_frame'
+glow: false
+permissao: ""
+permissao_mensagem: ""
+lore:
+  - "&7"
+  - "&7Tipo: &cSuprema"
+
+Itens:
+  0:
+    material: 'enchanting_table'
+    chance: 25
+    quantidade: 1
+    nome: "&eCaixa Misteriosa"
+    lore:
+      - "&7"
+      - "&7Tipo: &bEncantamento"
+    raridade: "Comum"
+    comandos:
+      - "caixa dar %player% encantamento 1"
+    glow: true
+  1:
+    material: 'enchanting_table'
+    chance: 15
+    quantidade: 2
+    nome: "&eCaixa Misteriosa"
+    lore:
+      - "&7"
+      - "&7Tipo: &bEncantamento"
+    raridade: "Comum"
+    comandos:
+      - "caixa dar %player% encantamento 2"
+    glow: true
+  2:
+    material: 'diamond_block'
+    chance: 10
+    quantidade: 24
+    raridade: "Comum"
+    glow: false
+  3:
+    material: 'gold_block'
+    chance: 10
+    quantidade: 24
+    raridade: "Comum"
+    glow: false
+  4:
+    material: 'nether_star'
+    chance: 10
+    quantidade: 1
+    nome: "&eMultiplicador de EXP"
+    lore:
+      - "&7"
+      - "&7Quantidade: &a2x"
+      - "&7Tipo: &aHabilidade"
+      - "&7Duração: &a1 Hora"
+    raridade: "Raro"
+    comandos:
+      - "cefhabilidade multiplicador %player% 2.0"
+    glow: false
+  5:
+    material: 'nether_star'
+    chance: 5
+    quantidade: 1
+    nome: "&eMultiplicador de EXP"
+    lore:
+      - "&7"
+      - "&7Quantidade: &a3x"
+      - "&7Tipo: &aHabilidade"
+      - "&7Duração: &a1 Hora"
+    raridade: "Raro"
+    comandos:
+      - "cefhabilidade multiplicador %player% 3.0"
+    glow: false
+  6:
+    material: 'book'
+    chance: 5
+    quantidade: 1
+    nome: "&eBiblioteca +1 Slot"
+    lore:
+      - "&7"
+      - "&7Recebe +1 Slot na Biblioteca"
+    raridade: "Raro"
+    comandos:
+      - "biblioteca addslot %player%"
+    glow: false
+  7:
+    material: 'purple_dye'
+    chance: 5
+    quantidade: 64
+    encantamentos: ""
+    nome: "&dAlmas"
+    lore:
+      - "&7"
+      - "&7quantidade: &a200x"
+    raridade: "Raro"
+    comandos:
+      - "mercadonegro add %player% 200"
+    glow: false
+  8:
+    material: 'golden_pickaxe'
+    chance: 3
+    quantidade: 1
+    encantamentos: "efficiency-8;fortune-4;telepatia-1"
+    raridade: "Lendario"
+    glow: false
+  9:
+    material: 'enchanted_book'
+    chance: 5
+    quantidade: 1
+    encantamentos: "efficiency-6;fortune-4;unbreaking-3"
+    nome: "&eLivro Encantado"
+    raridade: "Comum"
+    glow: false
+  10:
+    material: 'enchanted_book'
+    chance: 5
+    quantidade: 1
+    encantamentos: "sharpness-6;looting-5;unbreaking-3"
+    nome: "&eLivro Encantado"
+    raridade: "Comum"
+    glow: false
+  11:
+    material: 'purple_dye'
+    chance: 10
+    quantidade: 64
+    encantamentos: ""
+    nome: "&dAlmas"
+    lore:
+      - "&7"
+      - "&7quantidade: &a150x"
+    raridade: "Raro"
+    comandos:
+      - "mercadonegro add %player% 150"
+    glow: false

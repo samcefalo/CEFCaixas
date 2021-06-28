@@ -1,0 +1,41 @@
+ativado: false
+gui: false
+nome: "&eCaixa Misteriosa"
+Slot: 13
+material: 'note_block'
+glow: true
+permissao: ""
+permissao_mensagem: ""
+lore:
+  - "&7"
+  - "&7Tipo: &bPremium"
+
+Itens:
+  0:
+    material: 'diamond_sword'
+    chance: 10
+    quantidade: 1
+    cncantamentos: "Sharpness-1"
+    raridade: "Comum"
+    glow: false
+  1:
+    material: 'golden_sword'
+    chance: 20
+    quantidade: 1
+    cncantamentos: "Sharpness-3"
+    raridade: "Comum"
+    glow: false
+  2:
+    material: 'iron_sword'
+    chance: 30
+    quantidade: 1
+    cncantamentos: "Sharpness-4"
+    raridade: "Comum"
+    glow: false
+  3:
+    material: 'wooden_sword'
+    chance: 40
+    quantidade: 1
+    cncantamentos: "Sharpness-6"
+    raridade: "Comum"
+    glow: false

@@ -1,0 +1,225 @@
+ativado: true
+gui: true
+nome: "&eCaixa Misteriosa"
+slot: 12
+material: 'chest'
+glow: false
+permissao: ""
+permissao_mensagem: "&cRequer Passe de Batalha"
+lore:
+  - "&7"
+  - "&7Tipo: &eIntermediária"
+
+Itens:
+  0:
+    material: 'enchanted_book'
+    chance: 5
+    quantidade: 1
+    encantamentos: "vampirismo-3"
+    nome: "&eLivro Encantado"
+
+    raridade: "Comum"
+    comandos:
+      - "cefencantar dar vampirismo 3 %player%"
+    glow: false
+  1:
+    material: 'enchanted_book'
+    chance: 5
+    quantidade: 1
+    encantamentos: "veneno-3"
+    nome: "&eLivro Encantado"
+
+    raridade: "Comum"
+    comandos:
+      - "cefencantar dar veneno 3 %player%"
+    glow: false
+  2:
+    material: 'enchanted_book'
+    chance: 5
+    quantidade: 1
+    encantamentos: "assassino-3"
+    nome: "&eLivro Encantado"
+
+    raridade: "Comum"
+    comandos:
+      - "cefencantar dar assassino 3 %player%"
+    glow: false
+  3:
+    material: 'enchanted_book'
+    chance: 7
+    quantidade: 1
+    encantamentos: "replantar-1"
+    nome: "&eLivro Encantado"
+
+    raridade: "Raro"
+    comandos:
+      - "cefencantar dar replantar 1 %player%"
+    glow: false
+  4:
+    material: 'enchanted_book'
+    chance: 5
+    quantidade: 1
+    encantamentos: "cacador-3"
+    nome: "&eLivro Encantado"
+
+    raridade: "Comum"
+    comandos:
+      - "cefencantar dar cacador 3 %player%"
+    glow: false
+  5:
+    material: 'ender_chest'
+    chance: 3
+    quantidade: 1
+
+    nome: "&eCaixa Misteriosa"
+    lore:
+      - "&7"
+      - "&7Tipo: &eÉpica"
+    raridade: "Raro"
+    comandos:
+      - "caixar dar %player% epica 1"
+    glow: false
+  6:
+    material: 'enchanted_book'
+    chance: 3
+    quantidade: 1
+    encantamentos: "permanente-1"
+    nome: "&eLivro Encantado"
+
+    raridade: "Epico"
+    comandos:
+      - "cefencantar dar permanente 1 %player%"
+    glow: false
+  7:
+    material: 'enchanted_book'
+    chance: 7
+    quantidade: 1
+    encantamentos: "fornalha-1"
+    nome: "&eLivro Encantado"
+
+    raridade: "Comum"
+    comandos:
+      - "cefencantar dar fornalha 1 %player%"
+    glow: false
+  8:
+    material: 'diamond_pickaxe'
+    chance: 10
+    quantidade: 1
+    encantamentos: "efficiency-4;fortune-2;telepatia-1;fornalha-1"
+
+
+    raridade: "Comum"
+
+    glow: false
+  9:
+    material: 'enchanted_book'
+    chance: 5
+    quantidade: 1
+    encantamentos: "efficiency-4;fortune-3;unbreaking-3"
+    nome: "&eLivro Encantado"
+
+    raridade: "Comum"
+
+    glow: false
+  10:
+    material: 'enchanted_book'
+    chance: 5
+    quantidade: 1
+    encantamentos: "sharpness-4;looting-3;unbreaking-3"
+    nome: "&eLivro Encantado"
+    raridade: "Comum"
+    glow: false
+  11:
+    material: 'golden_pickaxe'
+    chance: 1
+    quantidade: 1
+    encantamentos: "efficiency-6;fortune-3;telepatia-1"
+    raridade: "Epico"
+    glow: false
+  12:
+    material: 'gold_block'
+    chance: 10
+    quantidade: 4
+    raridade: "Comum"
+    glow: false
+  13:
+    material: 'diamond_block'
+    chance: 10
+    quantidade: 4
+    raridade: "Comum"
+    glow: false
+  14:
+    material: 'purple_dye'
+    chance: 9
+    quantidade: 32
+    nome: "&dAlmas"
+    lore:
+      - "&7"
+      - "&7quantidade: &a32x"
+    raridade: "Comum"
+    comandos:
+      - "mercadonegro dar %player% 32"
+    glow: false
+  15:
+    material: 'purple_dye'
+    chance: 5
+    quantidade: 32
+
+    nome: "&dAlmas"
+    lore:
+      - "&7"
+      - "&7quantidade: &a64x"
+    raridade: "Raro"
+    comandos:
+      - "mercadonegro dar %player% 64"
+    glow: false
+  16:
+    material: 'enchanted_book'
+    chance: 1
+    quantidade: 1
+    encantamentos: "assassino-6"
+    nome: "&eLivro Encantado"
+
+    raridade: "Epico"
+    comandos:
+      - "cefencantar dar assassino 6 %player%"
+    glow: false
+  17:
+    material: 'enchanted_book'
+    chance: 3
+    quantidade: 1
+    encantamentos: "cacador-6"
+    nome: "&eLivro Encantado"
+
+    raridade: "Raro"
+    comandos:
+      - "cefencantar dar cacador 6 %player%"
+    glow: false
+  18:
+    material: 'end_portal_frame'
+    chance: 1
+    quantidade: 1
+
+    nome: "&eCaixa Misteriosa"
+    lore:
+      - "&7"
+      - "&7Tipo: &cSuprema"
+    raridade: "Raro"
+    comandos:
+      - "caixa dar %player% suprema 1"
+    glow: false
+  19:
+    material: 'nether_star'
+    chance: 5
+    quantidade: 1
+
+    nome: "&eMultiplicador de EXP"
+    lore:
+      - "&7"
+      - "&7Quantidade: &a2x"
+      - "&7Tipo: &aHabilidade"
+      - "&7Duração: &a1 Hora"
+    raridade: "Raro"
+    comandos:
+      - "cefhabilidade multiplicador %player% 2.0"
+    glow: false

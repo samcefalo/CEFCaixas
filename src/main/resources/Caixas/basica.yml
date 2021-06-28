@@ -1,0 +1,131 @@
+ativado: true
+gui: true
+nome: "&eCaixa Misteriosa"
+slot: 10
+material: 'chest'
+glow: false
+permissao: "null"
+permissao_mensagem: "&cRequer Passe de Batalha"
+lore:
+  - "&7"
+  - "&7Tipo: &aBásica"
+
+Itens:
+  0:
+    material: 'enchanted_book'
+    chance: 5
+    quantidade: 1
+    encantamentos: "vampirismo-1"
+    nome: "&eLivro Encantado"
+    raridade: "Comum"
+    comandos:
+      - "cefencantar dar vampirismo 1 %player%"
+    glow: false
+  1:
+    material: 'enchanted_book'
+    chance: 5
+    quantidade: 1
+    encantamentos: "veneno-1"
+    nome: "&eLivro Encantado"
+    raridade: "Comum"
+    comandos:
+      - "cefencantar dar veneno 1 %player%"
+    glow: false
+  2:
+    material: 'enchanted_book'
+    chance: 5
+    quantidade: 1
+    encantamentos: "assassino-1"
+    nome: "&eLivro Encantado"
+    raridade: "Comum"
+    comandos:
+      - "cefencantar dar assassino 1 %player%"
+    glow: false
+  3:
+    material: 'enchanted_book'
+    chance: 3
+    quantidade: 1
+    encantamentos: "replantar-1"
+    nome: "&eLivro Encantado"
+    raridade: "Raro"
+    comandos:
+      - "cefencantar dar replantar 1 %player%"
+    glow: false
+  4:
+    material: 'enchanted_book'
+    chance: 7
+    quantidade: 1
+    encantamentos: "cacador-2"
+    nome: "&eLivro Encantado"
+    raridade: "Comum"
+    comandos:
+      - "cefencantar dar cacador 2 %player%"
+    glow: false
+  5:
+    material: 'enchanted_book'
+    chance: 30
+    quantidade: 1
+    encantamentos: "telepatia-1"
+    nome: "&eLivro Encantado"
+    raridade: "Comum"
+    comandos:
+      - "cefencantar dar telepatia 1 %player%"
+    glow: false
+  6:
+    material: 'enchanted_book'
+    chance: 1
+    quantidade: 1
+    encantamentos: "permanente-1"
+    nome: "&eLivro Encantado"
+    raridade: "Epico"
+    comandos:
+      - "cefencantar dar permanente 1 %player%"
+    glow: false
+  7:
+    material: 'enchanted_book'
+    chance: 9
+    quantidade: 1
+    encantamentos: "fornalha-1"
+    nome: "&eLivro Encantado"
+    raridade: "Comum"
+    comandos:
+      - "cefencantar dar fornalha 1 %player%"
+    glow: false
+  8:
+    material: 'diamond_pickaxe'
+    chance: 5
+    quantidade: 1
+    encantamentos: "efficiency-2;telepatia-1;fortune-1;fornalha-1"
+    raridade: "Comum"
+    glow: false
+  9:
+    material: 'diamond'
+    chance: 10
+    quantidade: 8
+    raridade: "Comum"
+    glow: false
+  10:
+    material: 'iron_ingot'
+    chance: 10
+    quantidade: 16
+    raridade: "Comum"
+    glow: false
+  11:
+    material: 'golden_pickaxe'
+    chance: 5
+    quantidade: 1
+    encantamentos: "efficiency-4;telepatia-1;fortune-1;fornalha-1"
+    raridade: "Comum"
+    glow: false
+  12:
+    material: 'chest'
+    chance: 5
+    quantidade: 1
+    nome: "&eCaixa Misteriosa"
+    lore:
+      - "&7"
+      - "&7Tipo: &eIntermediária"
+    raridade: "Comum"
+    comandos:
+      - "caixa dar %player% intermediaria 1"
+    glow: false

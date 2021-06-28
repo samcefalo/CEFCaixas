@@ -1,0 +1,32 @@
+Funcoes:
+  ativado: true
+
+Caixas:
+  - basica.yml
+  - intermediaria.yml
+  - epica.yml
+  - suprema.yml
+  - premium.yml
+  - encantamento.yml
+
+Raridades:
+  Comum:
+    nome: '&aComum'
+    cor: GREEN
+    anunciar: false
+    som: false
+  Raro:
+    nome: '&dRaro'
+    cor: PINK
+    anunciar: true
+    som: false
+  Epico:
+    nome: '&5Épico'
+    cor: PURPLE
+    anunciar: true
+    som: false
+  Lendario:
+    nome: '&6Lendário'
+    cor: ORANGE
+    anunciar: true
+    som: true

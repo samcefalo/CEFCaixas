@@ -1,0 +1,276 @@
+ativado: true
+gui: false
+nome: "&eCaixa Misteriosa"
+slot: 13
+material: 'enchanting_table'
+glow: true
+permissao: ""
+permissao_mensagem: ""
+lore:
+  - "&7"
+  - "&7Tipo: &bEncantamento"
+
+Itens:
+  0:
+    material: 'enchanted_book'
+    chance: 5
+    quantidade: 1
+    encantamentos: "vampirismo-5"
+    nome: "&eLivro Encantado"
+
+    raridade: "Comum"
+    comandos:
+      - "cefencantar dar vampirismo 5 %player%"
+    glow: false
+  1:
+    material: 'enchanted_book'
+    chance: 5
+    quantidade: 1
+    encantamentos: "veneno-5"
+    nome: "&eLivro Encantado"
+
+    raridade: "Comum"
+    comandos:
+      - "cefencantar dar veneno 5 %player%"
+    glow: false
+  2:
+    material: 'enchanted_book'
+    chance: 5
+    quantidade: 1
+    encantamentos: "assassino-5"
+    nome: "&eLivro Encantado"
+
+    raridade: "Comum"
+    comandos:
+      - "cefencantar dar assassino 5 %player%"
+    glow: false
+  3:
+    material: 'enchanted_book'
+    chance: 5
+    quantidade: 1
+    encantamentos: "replantar-1"
+    nome: "&eLivro Encantado"
+
+    raridade: "Comum"
+    comandos:
+      - "cefencantar dar replantar 1 %player%"
+    glow: false
+  4:
+    material: 'enchanted_book'
+    chance: 5
+    quantidade: 1
+    encantamentos: "cacador-5"
+    nome: "&eLivro Encantado"
+
+    raridade: "Comum"
+    comandos:
+      - "cefencantar dar cacador 5 %player%"
+    glow: false
+  5:
+    material: 'enchanted_book'
+    chance: 5
+    quantidade: 1
+    encantamentos: "lentidao-5"
+    nome: "&eLivro Encantado"
+
+    raridade: "Comum"
+    comandos:
+      - "cefencantar dar lentidao 3 %player%"
+    glow: false
+  6:
+    material: 'enchanted_book'
+    chance: 5
+    quantidade: 1
+    encantamentos: "permanente-1"
+    nome: "&eLivro Encantado"
+
+    raridade: "Epico"
+    comandos:
+      - "cefencantar dar permanente 1 %player%"
+    glow: false
+  7:
+    material: 'enchanted_book'
+    chance: 5
+    quantidade: 1
+    encantamentos: "fornalha-1"
+    nome: "&eLivro Encantado"
+
+    raridade: "Comum"
+    comandos:
+      - "cefencantar dar fornalha 1 %player%"
+    glow: false
+  8:
+    material: 'enchanted_book'
+    chance: 5
+    quantidade: 1
+    encantamentos: "efficiency-4"
+    nome: "&eLivro Encantado"
+
+    raridade: "Comum"
+    comandos:
+      - "cefencantar dar efficiency 4 %player%"
+    glow: false
+  9:
+    material: 'enchanted_book'
+    chance: 5
+    quantidade: 1
+    encantamentos: "efficiency-5"
+    nome: "&eLivro Encantado"
+
+    raridade: "Comum"
+    comandos:
+      - "cefencantar dar efficiency 5 %player%"
+    glow: false
+  10:
+    material: 'enchanted_book'
+    chance: 5
+    quantidade: 1
+    encantamentos: "efficiency-6"
+    nome: "&eLivro Encantado"
+
+    raridade: "Comum"
+    comandos:
+      - "cefencantar dar efficiency 6 %player%"
+    glow: false
+  11:
+    material: 'enchanted_book'
+    chance: 5
+    quantidade: 1
+    encantamentos: "sharpness-4"
+    nome: "&eLivro Encantado"
+
+    raridade: "Comum"
+    comandos:
+      - "cefencantar dar sharpness 4 %player%"
+    glow: false
+  12:
+    material: 'enchanted_book'
+    chance: 5
+    quantidade: 1
+    encantamentos: "sharpness-5"
+    nome: "&eLivro Encantado"
+
+    raridade: "Comum"
+    comandos:
+      - "cefencantar dar sharpness 5 %player%"
+    glow: false
+  13:
+    material: 'enchanted_book'
+    chance: 5
+    quantidade: 1
+    encantamentos: "sharpness-6"
+    nome: "&eLivro Encantado"
+
+    raridade: "Comum"
+    comandos:
+      - "cefencantar dar sharpness 6 %player%"
+    glow: false
+  14:
+    material: 'enchanted_book'
+    chance: 5
+    quantidade: 1
+    encantamentos: "looting-2"
+    nome: "&eLivro Encantado"
+
+    raridade: "Comum"
+    comandos:
+      - "cefencantar dar looting 2 %player%"
+    glow: false
+  15:
+    material: 'enchanted_book'
+    chance: 5
+    quantidade: 1
+    encantamentos: "looting-3"
+    nome: "&eLivro Encantado"
+
+    raridade: "Comum"
+    comandos:
+      - "cefencantar dar looting 3 %player%"
+    glow: false
+  16:
+    material: 'enchanted_book'
+    chance: 5
+    quantidade: 1
+    encantamentos: "looting-4"
+    nome: "&eLivro Encantado"
+
+    raridade: "Comum"
+    comandos:
+      - "cefencantar dar looting 4 %player%"
+    glow: false
+  17:
+    material: 'enchanted_book'
+    chance: 5
+    quantidade: 1
+    encantamentos: "fortune-2"
+    nome: "&eLivro Encantado"
+
+    raridade: "Comum"
+    comandos:
+      - "cefencantar dar fortune 2 %player%"
+    glow: false
+  18:
+    material: 'enchanted_book'
+    chance: 5
+    quantidade: 1
+    encantamentos: "fortune-3"
+    nome: "&eLivro Encantado"
+
+    raridade: "Comum"
+    comandos:
+      - "cefencantar dar fortune 3 %player%"
+    glow: false
+  19:
+    material: 'enchanted_book'
+    chance: 5
+    quantidade: 1
+    encantamentos: "fortune-4"
+    nome: "&eLivro Encantado"
+
+    raridade: "Comum"
+    comandos:
+      - "cefencantar dar fortune 4 %player%"
+    glow: false
+  20:
+    material: 'enchanted_book'
+    chance: 5
+    quantidade: 1
+    encantamentos: "unbreaking-3"
+    nome: "&eLivro Encantado"
+
+    raridade: "Comum"
+    comandos:
+      - "cefencantar dar unbreaking 3 %player%"
+    glow: false
+  21:
+    material: 'enchanted_book'
+    chance: 1
+    quantidade: 1
+    encantamentos: "fortune-5"
+    nome: "&eLivro Encantado"
+
+    raridade: "Comum"
+    comandos:
+      - "cefencantar dar fortune 5 %player%"
+    glow: false
+  22:
+    material: 'enchanted_book'
+    chance: 1
+    quantidade: 1
+    encantamentos: "looting-5"
+    nome: "&eLivro Encantado"
+
+    raridade: "Comum"
+    comandos:
+      - "cefencantar dar looting 5 %player%"
+    glow: false
+  23:
+    material: 'enchanted_book'
+    chance: 1
+    quantidade: 1
+    encantamentos: "efficiency-7"
+    nome: "&eLivro Encantado"
+    raridade: "Comum"
+    comandos:
+      - "cefencantar dar efficiency 7 %player%"
+    glow: false
